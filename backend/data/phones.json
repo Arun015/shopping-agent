@@ -1,0 +1,988 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "brand": "OnePlus",
+      "model": "OnePlus 12R",
+      "price": 39999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video", "Night mode"]
+        },
+        "battery_mah": 5500,
+        "fast_charging_w": 100,
+        "processor": "Snapdragon 8 Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.78,
+        "refresh_rate_hz": 120,
+        "weight_g": 207
+      },
+      "features": ["5G", "IP65", "Stereo speakers"],
+      "pros": ["Excellent performance", "Fast charging", "Good display"],
+      "cons": ["Average camera", "Heavy"]
+    },
+    {
+      "id": 2,
+      "brand": "Google",
+      "model": "Pixel 8a",
+      "price": 52999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "ultrawide_mp": 13,
+          "features": ["OIS", "Night Sight", "Magic Eraser", "4K 60fps"]
+        },
+        "battery_mah": 4492,
+        "fast_charging_w": 18,
+        "processor": "Google Tensor G3",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.1,
+        "refresh_rate_hz": 120,
+        "weight_g": 188
+      },
+      "features": ["5G", "IP67", "Wireless charging"],
+      "pros": ["Best camera in class", "Clean Android", "7 years updates"],
+      "cons": ["Slow charging", "Average battery life"]
+    },
+    {
+      "id": 3,
+      "brand": "Samsung",
+      "model": "Galaxy S23 FE",
+      "price": 49999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 12,
+          "telephoto_mp": 8,
+          "features": ["OIS", "3x optical zoom", "8K video"]
+        },
+        "battery_mah": 4500,
+        "fast_charging_w": 25,
+        "processor": "Exynos 2200",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.4,
+        "refresh_rate_hz": 120,
+        "weight_g": 209
+      },
+      "features": ["5G", "IP68", "Wireless charging", "DeX mode"],
+      "pros": ["Versatile cameras", "Premium build", "Good display"],
+      "cons": ["Exynos heating issues", "Expensive"]
+    },
+    {
+      "id": 4,
+      "brand": "Nothing",
+      "model": "Nothing Phone 2a",
+      "price": 23999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 50,
+          "features": ["Night mode", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 45,
+        "processor": "MediaTek Dimensity 7200 Pro",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 190
+      },
+      "features": ["5G", "Glyph Interface", "Clean OS"],
+      "pros": ["Unique design", "Good value", "Clean software"],
+      "cons": ["Average performance", "No OIS"]
+    },
+    {
+      "id": 5,
+      "brand": "OnePlus",
+      "model": "OnePlus Nord 3",
+      "price": 29999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 80,
+        "processor": "MediaTek Dimensity 9000",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.74,
+        "refresh_rate_hz": 120,
+        "weight_g": 193
+      },
+      "features": ["5G", "Alert slider", "Stereo speakers"],
+      "pros": ["Great performance", "Fast charging", "Good camera"],
+      "cons": ["No IP rating", "Plastic frame"]
+    },
+    {
+      "id": 6,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro+",
+      "price": 31999,
+      "specs": {
+        "camera": {
+          "main_mp": 200,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 120,
+        "processor": "MediaTek Dimensity 7200 Ultra",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 204
+      },
+      "features": ["5G", "IP68", "IR blaster"],
+      "pros": ["200MP camera", "Super fast charging", "IP68 rating"],
+      "cons": ["MIUI bloatware", "Average processor"]
+    },
+    {
+      "id": 7,
+      "brand": "Samsung",
+      "model": "Galaxy A54",
+      "price": 38999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 12,
+          "macro_mp": 5,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 25,
+        "processor": "Exynos 1380",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.4,
+        "refresh_rate_hz": 120,
+        "weight_g": 202
+      },
+      "features": ["5G", "IP67", "Stereo speakers"],
+      "pros": ["Premium design", "Good cameras", "4 years updates"],
+      "cons": ["Slow charging", "Expensive for specs"]
+    },
+    {
+      "id": 8,
+      "brand": "Motorola",
+      "model": "Edge 40",
+      "price": 24999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 13,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 4400,
+        "fast_charging_w": 68,
+        "processor": "MediaTek Dimensity 8020",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.55,
+        "refresh_rate_hz": 144,
+        "weight_g": 171
+      },
+      "features": ["5G", "IP68", "Curved display"],
+      "pros": ["Lightweight", "Clean Android", "Good display"],
+      "cons": ["Average battery", "Limited availability"]
+    },
+    {
+      "id": 9,
+      "brand": "Realme",
+      "model": "Realme 12 Pro+",
+      "price": 29999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "telephoto_mp": 64,
+          "features": ["OIS", "3x optical zoom", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "Snapdragon 7s Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 196
+      },
+      "features": ["5G", "Curved display", "Stereo speakers"],
+      "pros": ["Excellent telephoto camera", "Good value", "Premium design"],
+      "cons": ["Average processor", "ColorOS bloat"]
+    },
+    {
+      "id": 10,
+      "brand": "iQOO",
+      "model": "iQOO Neo 9 Pro",
+      "price": 35999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5160,
+        "fast_charging_w": 120,
+        "processor": "Snapdragon 8 Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.78,
+        "refresh_rate_hz": 144,
+        "weight_g": 190
+      },
+      "features": ["5G", "Gaming triggers", "RGB lighting"],
+      "pros": ["Flagship performance", "Fast charging", "Gaming features"],
+      "cons": ["Average cameras", "FunTouch OS"]
+    },
+    {
+      "id": 11,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13",
+      "price": 17999,
+      "specs": {
+        "camera": {
+          "main_mp": 108,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 33,
+        "processor": "Snapdragon 685",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 188
+      },
+      "features": ["5G", "IR blaster", "Headphone jack"],
+      "pros": ["Good value", "108MP camera", "Large battery"],
+      "cons": ["Average performance", "No OIS"]
+    },
+    {
+      "id": 12,
+      "brand": "Samsung",
+      "model": "Galaxy M34",
+      "price": 18999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 6000,
+        "fast_charging_w": 25,
+        "processor": "Exynos 1280",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.5,
+        "refresh_rate_hz": 120,
+        "weight_g": 208
+      },
+      "features": ["5G", "Massive battery", "Stereo speakers"],
+      "pros": ["Huge battery", "Good display", "Clean software"],
+      "cons": ["Heavy", "Slow charging"]
+    },
+    {
+      "id": 13,
+      "brand": "Realme",
+      "model": "Realme Narzo 70 Pro",
+      "price": 19999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "MediaTek Dimensity 7050",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 195
+      },
+      "features": ["5G", "Fast charging", "Air gestures"],
+      "pros": ["OIS at this price", "Fast charging", "Good performance"],
+      "cons": ["Plastic build", "Average display"]
+    },
+    {
+      "id": 14,
+      "brand": "Motorola",
+      "model": "Moto G84",
+      "price": 16999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 30,
+        "processor": "Snapdragon 695",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.55,
+        "refresh_rate_hz": 120,
+        "weight_g": 167
+      },
+      "features": ["5G", "Clean Android", "Curved display"],
+      "pros": ["Lightweight", "OIS", "Clean software"],
+      "cons": ["Average processor", "Plastic build"]
+    },
+    {
+      "id": 15,
+      "brand": "Poco",
+      "model": "Poco X6 Pro",
+      "price": 26999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "MediaTek Dimensity 8300 Ultra",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 186
+      },
+      "features": ["5G", "IR blaster", "Stereo speakers"],
+      "pros": ["Flagship performance", "Good value", "Fast charging"],
+      "cons": ["MIUI bloat", "Average cameras"]
+    },
+    {
+      "id": 16,
+      "brand": "Vivo",
+      "model": "Vivo V30",
+      "price": 33999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "Aura Light", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 80,
+        "processor": "Snapdragon 7 Gen 3",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.78,
+        "refresh_rate_hz": 120,
+        "weight_g": 186
+      },
+      "features": ["5G", "Curved display", "Ring light"],
+      "pros": ["Great selfie camera", "Slim design", "Fast charging"],
+      "cons": ["Average processor", "FunTouch OS"]
+    },
+    {
+      "id": 17,
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE 3",
+      "price": 22999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 80,
+        "processor": "Snapdragon 782G",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 184
+      },
+      "features": ["5G", "Alert slider", "Fast charging"],
+      "pros": ["Fast charging", "Good performance", "Lightweight"],
+      "cons": ["No OIS", "Plastic build"]
+    },
+    {
+      "id": 18,
+      "brand": "Samsung",
+      "model": "Galaxy F54",
+      "price": 26999,
+      "specs": {
+        "camera": {
+          "main_mp": 108,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 6000,
+        "fast_charging_w": 25,
+        "processor": "Exynos 1380",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 199
+      },
+      "features": ["5G", "Massive battery", "Gorilla Glass 5"],
+      "pros": ["Huge battery", "108MP camera", "Good display"],
+      "cons": ["Slow charging", "Heavy"]
+    },
+    {
+      "id": 19,
+      "brand": "Realme",
+      "model": "Realme 11 Pro",
+      "price": 23999,
+      "specs": {
+        "camera": {
+          "main_mp": 100,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "MediaTek Dimensity 7050",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 190
+      },
+      "features": ["5G", "Curved display", "Leather back"],
+      "pros": ["100MP camera with OIS", "Premium design", "Fast charging"],
+      "cons": ["Average processor", "ColorOS"]
+    },
+    {
+      "id": 20,
+      "brand": "Xiaomi",
+      "model": "Redmi 13C",
+      "price": 10999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "macro_mp": 2,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 18,
+        "processor": "MediaTek Helio G85",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.74,
+        "refresh_rate_hz": 90,
+        "weight_g": 192
+      },
+      "features": ["4G", "Large display", "Headphone jack"],
+      "pros": ["Budget friendly", "Large battery", "Good display size"],
+      "cons": ["4G only", "Average performance"]
+    },
+    {
+      "id": 21,
+      "brand": "Motorola",
+      "model": "Moto G54",
+      "price": 13999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 33,
+        "processor": "MediaTek Dimensity 7020",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.5,
+        "refresh_rate_hz": 120,
+        "weight_g": 179
+      },
+      "features": ["5G", "Clean Android", "Stereo speakers"],
+      "pros": ["Clean software", "5G at this price", "Good battery"],
+      "cons": ["Average camera", "Plastic build"]
+    },
+    {
+      "id": 22,
+      "brand": "Samsung",
+      "model": "Galaxy A14",
+      "price": 13999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 5,
+          "macro_mp": 2,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 15,
+        "processor": "Exynos 850",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.6,
+        "refresh_rate_hz": 90,
+        "weight_g": 201
+      },
+      "features": ["5G", "Samsung ecosystem", "Knox security"],
+      "pros": ["Brand value", "Good battery", "Software updates"],
+      "cons": ["Slow performance", "Slow charging"]
+    },
+    {
+      "id": 23,
+      "brand": "Realme",
+      "model": "Realme C55",
+      "price": 11999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "macro_mp": 2,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 33,
+        "processor": "MediaTek Helio G88",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.72,
+        "refresh_rate_hz": 90,
+        "weight_g": 189
+      },
+      "features": ["4G", "Fast charging", "Mini capsule"],
+      "pros": ["64MP camera", "Fast charging", "Good design"],
+      "cons": ["4G only", "Average processor"]
+    },
+    {
+      "id": 24,
+      "brand": "Poco",
+      "model": "Poco M6 Pro",
+      "price": 12999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "Snapdragon 4 Gen 2",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 179
+      },
+      "features": ["5G", "Fast charging", "IR blaster"],
+      "pros": ["Super fast charging", "5G", "Good display"],
+      "cons": ["MIUI bloat", "Average camera"]
+    },
+    {
+      "id": 25,
+      "brand": "Vivo",
+      "model": "Vivo Y100",
+      "price": 24999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 4800,
+        "fast_charging_w": 80,
+        "processor": "MediaTek Dimensity 900",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.38,
+        "refresh_rate_hz": 120,
+        "weight_g": 181
+      },
+      "features": ["5G", "Curved display", "Fast charging"],
+      "pros": ["Compact size", "OIS", "Fast charging"],
+      "cons": ["Average processor", "Small battery"]
+    },
+    {
+      "id": 26,
+      "brand": "iQOO",
+      "model": "iQOO Z9",
+      "price": 19999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 44,
+        "processor": "MediaTek Dimensity 7200",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 188
+      },
+      "features": ["5G", "OIS", "Stereo speakers"],
+      "pros": ["OIS at this price", "Good performance", "Clean design"],
+      "cons": ["FunTouch OS", "Average battery"]
+    },
+    {
+      "id": 27,
+      "brand": "OnePlus",
+      "model": "OnePlus 11R",
+      "price": 34999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 100,
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.74,
+        "refresh_rate_hz": 120,
+        "weight_g": 204
+      },
+      "features": ["5G", "Alert slider", "Stereo speakers"],
+      "pros": ["Flagship performance", "100W charging", "Good display"],
+      "cons": ["No wireless charging", "Average cameras"]
+    },
+    {
+      "id": 28,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 12 Pro",
+      "price": 23999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "MediaTek Dimensity 1080",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 187
+      },
+      "features": ["5G", "OIS", "AMOLED display"],
+      "pros": ["OIS", "Good display", "Fast charging"],
+      "cons": ["MIUI bloat", "Average processor"]
+    },
+    {
+      "id": 29,
+      "brand": "Samsung",
+      "model": "Galaxy A34",
+      "price": 30999,
+      "specs": {
+        "camera": {
+          "main_mp": 48,
+          "ultrawide_mp": 8,
+          "macro_mp": 5,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 25,
+        "processor": "MediaTek Dimensity 1080",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.6,
+        "refresh_rate_hz": 120,
+        "weight_g": 199
+      },
+      "features": ["5G", "IP67", "Gorilla Glass 5"],
+      "pros": ["OIS", "IP67 rating", "Good software support"],
+      "cons": ["Slow charging", "Average performance"]
+    },
+    {
+      "id": 30,
+      "brand": "Realme",
+      "model": "Realme GT Neo 5",
+      "price": 32999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 150,
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.74,
+        "refresh_rate_hz": 144,
+        "weight_g": 199
+      },
+      "features": ["5G", "150W charging", "RGB lighting"],
+      "pros": ["Fastest charging", "Flagship performance", "Great display"],
+      "cons": ["ColorOS", "Average cameras"]
+    },
+    {
+      "id": 31,
+      "brand": "Motorola",
+      "model": "Moto Edge 30 Fusion",
+      "price": 29999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 13,
+          "features": ["OIS", "4K video", "8K video"]
+        },
+        "battery_mah": 4400,
+        "fast_charging_w": 68,
+        "processor": "Snapdragon 888+",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.55,
+        "refresh_rate_hz": 144,
+        "weight_g": 172
+      },
+      "features": ["5G", "Curved display", "Clean Android"],
+      "pros": ["Lightweight", "Flagship processor", "Clean software"],
+      "cons": ["Average battery", "No IP rating"]
+    },
+    {
+      "id": 32,
+      "brand": "Nothing",
+      "model": "Nothing Phone 2",
+      "price": 44999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 50,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 4700,
+        "fast_charging_w": 45,
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 201
+      },
+      "features": ["5G", "Glyph Interface", "Wireless charging", "IP54"],
+      "pros": ["Unique design", "Flagship performance", "Clean software"],
+      "cons": ["Average battery", "Expensive"]
+    },
+    {
+      "id": 33,
+      "brand": "Poco",
+      "model": "Poco F5",
+      "price": 29999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "Snapdragon 7+ Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 181
+      },
+      "features": ["5G", "IR blaster", "Liquid cooling"],
+      "pros": ["Great performance", "Good value", "Fast charging"],
+      "cons": ["MIUI bloat", "Plastic build"]
+    },
+    {
+      "id": 34,
+      "brand": "Vivo",
+      "model": "Vivo T2 Pro",
+      "price": 23999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "ultrawide_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 4600,
+        "fast_charging_w": 66,
+        "processor": "MediaTek Dimensity 7200",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.78,
+        "refresh_rate_hz": 120,
+        "weight_g": 175
+      },
+      "features": ["5G", "Curved display", "Fast charging"],
+      "pros": ["Lightweight", "OIS", "Good performance"],
+      "cons": ["Small battery", "FunTouch OS"]
+    },
+    {
+      "id": 35,
+      "brand": "Samsung",
+      "model": "Galaxy M14",
+      "price": 12999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 5,
+          "macro_mp": 2,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 6000,
+        "fast_charging_w": 25,
+        "processor": "Exynos 1330",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.6,
+        "refresh_rate_hz": 90,
+        "weight_g": 206
+      },
+      "features": ["5G", "Massive battery", "Knox security"],
+      "pros": ["Huge battery", "5G", "Brand value"],
+      "cons": ["Heavy", "Average performance"]
+    },
+    {
+      "id": 36,
+      "brand": "Realme",
+      "model": "Realme 10 Pro+",
+      "price": 22999,
+      "specs": {
+        "camera": {
+          "main_mp": 108,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "MediaTek Dimensity 1080",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 173
+      },
+      "features": ["5G", "Curved display", "Fast charging"],
+      "pros": ["108MP camera", "Lightweight", "Fast charging"],
+      "cons": ["No OIS", "ColorOS"]
+    },
+    {
+      "id": 37,
+      "brand": "OnePlus",
+      "model": "OnePlus Nord CE 4",
+      "price": 24999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["4K video"]
+        },
+        "battery_mah": 5500,
+        "fast_charging_w": 100,
+        "processor": "Snapdragon 7 Gen 3",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.7,
+        "refresh_rate_hz": 120,
+        "weight_g": 186
+      },
+      "features": ["5G", "100W charging", "Alert slider"],
+      "pros": ["Super fast charging", "Large battery", "Good performance"],
+      "cons": ["No OIS", "Plastic build"]
+    },
+    {
+      "id": 38,
+      "brand": "Xiaomi",
+      "model": "Poco X5 Pro",
+      "price": 22999,
+      "specs": {
+        "camera": {
+          "main_mp": 108,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["4K video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 67,
+        "processor": "Snapdragon 778G",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.67,
+        "refresh_rate_hz": 120,
+        "weight_g": 181
+      },
+      "features": ["5G", "IR blaster", "AMOLED display"],
+      "pros": ["108MP camera", "Good value", "Fast charging"],
+      "cons": ["Average processor", "MIUI bloat"]
+    },
+    {
+      "id": 39,
+      "brand": "Motorola",
+      "model": "Moto G73",
+      "price": 15999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["1080p video"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 30,
+        "processor": "MediaTek Dimensity 930",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.5,
+        "refresh_rate_hz": 120,
+        "weight_g": 181
+      },
+      "features": ["5G", "Clean Android", "Stereo speakers"],
+      "pros": ["Clean software", "Good battery", "5G"],
+      "cons": ["Average camera", "Plastic build"]
+    },
+    {
+      "id": 40,
+      "brand": "iQOO",
+      "model": "iQOO Z7 Pro",
+      "price": 21999,
+      "specs": {
+        "camera": {
+          "main_mp": 64,
+          "ultrawide_mp": 2,
+          "features": ["OIS", "4K video"]
+        },
+        "battery_mah": 4600,
+        "fast_charging_w": 66,
+        "processor": "MediaTek Dimensity 7200",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.78,
+        "refresh_rate_hz": 120,
+        "weight_g": 175
+      },
+      "features": ["5G", "OIS", "Curved display"],
+      "pros": ["OIS at this price", "Good performance", "Slim design"],
+      "cons": ["Small battery", "FunTouch OS"]
+    }
+  ]
+}
+
+
+
