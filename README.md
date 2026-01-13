@@ -85,13 +85,6 @@ Safety layer includes:
 - Toxic content filtering
 - Off-topic query rejection
 
-## Deployment
-
-Deploy to Vercel (both frontend & backend together):
-1. Import GitHub repo to Vercel
-2. Add environment variable: `GOOGLE_API_KEY`
-3. Deploy - Vercel auto-detects configuration from `vercel.json`
-
 ## Known Limitations
 
 - Static phone catalog (not real-time)
