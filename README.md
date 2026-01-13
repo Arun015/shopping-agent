@@ -85,15 +85,25 @@ Safety layer includes:
 - Toxic content filtering
 - Off-topic query rejection
 
+## 🌐 Live Demo
+
+- **Frontend**: [Will be added after deployment]
+- **Backend API**: [Will be added after deployment]
+- **API Docs**: [Backend URL]/docs
+
 ## Deployment
 
-**Backend:** Railway/Render
-- Set `GOOGLE_API_KEY` environment variable
-- Deploy command: `cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT`
+### Backend (Render.com)
+1. Create new Web Service on Render
+2. Connect GitHub repo
+3. Build: `pip install -r requirements.txt`
+4. Start: `cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT`
+5. Add env var: `GOOGLE_API_KEY`
 
-**Frontend:** Vercel/Netlify
-- Set `VITE_API_URL` to backend URL
-- Build command: `cd frontend && npm run build`
+### Frontend (Vercel)
+1. Create new project on Vercel
+2. Root directory: `frontend`
+3. Add env var: `VITE_API_URL` (your Render backend URL)
 
 ## Known Limitations
 
