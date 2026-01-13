@@ -9,14 +9,11 @@ router = APIRouter()
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
-    try:
-        response, session_id = chat_service.chat(request.message, request.session_id)
-        return ChatResponse(
-            response=response,
-            session_id=session_id
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail="Internal server error")
+    response, session_id = chat_service.chat(request.message, request.session_id)
+    return ChatResponse(
+        response=response,
+        session_id=session_id
+    )
 
 
 @router.get("/phones", response_model=List[PhoneDTO])
@@ -44,6 +41,3 @@ async def get_phone(phone_id: int):
 @router.get("/health")
 async def health_check():
     return {"status": "healthy"}
-
-
-

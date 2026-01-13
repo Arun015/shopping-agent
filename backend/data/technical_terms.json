@@ -1,0 +1,115 @@
+[
+  {
+    "term": "OIS",
+    "full_name": "Optical Image Stabilization",
+    "category": "camera",
+    "explanation": "Hardware-based camera stabilization using gyroscopes and moving lens elements. Physically moves the lens to compensate for hand shake.",
+    "benefits": ["Better low-light photos", "Sharper images", "Smoother videos"],
+    "use_case": "Essential for photography enthusiasts and low-light shooting"
+  },
+  {
+    "term": "EIS",
+    "full_name": "Electronic Image Stabilization",
+    "category": "camera",
+    "explanation": "Software-based stabilization that crops and digitally shifts the image to reduce shake.",
+    "benefits": ["Works for video", "No extra hardware needed", "Lightweight solution"],
+    "use_case": "Good for casual video recording"
+  },
+  {
+    "term": "AMOLED",
+    "full_name": "Active Matrix Organic Light-Emitting Diode",
+    "category": "display",
+    "explanation": "Display technology where each pixel emits its own light, no backlight needed.",
+    "benefits": ["True blacks", "Better contrast", "Vibrant colors", "Power efficient"],
+    "use_case": "Best for media consumption and gaming"
+  },
+  {
+    "term": "LCD",
+    "full_name": "Liquid Crystal Display",
+    "category": "display",
+    "explanation": "Traditional display technology using a backlight behind liquid crystals.",
+    "benefits": ["More affordable", "Better outdoor visibility", "No burn-in issues"],
+    "use_case": "Good for budget phones and outdoor use"
+  },
+  {
+    "term": "5G",
+    "full_name": "Fifth Generation Mobile Network",
+    "category": "connectivity",
+    "explanation": "Latest mobile network technology offering faster speeds and lower latency than 4G.",
+    "benefits": ["Faster downloads", "Lower latency", "Better connectivity", "Future-proof"],
+    "use_case": "Essential for heavy data users and future-proofing"
+  },
+  {
+    "term": "IP67",
+    "full_name": "Ingress Protection Rating 67",
+    "category": "durability",
+    "explanation": "Dust-tight and water resistant up to 1 meter for 30 minutes.",
+    "benefits": ["Protection from dust", "Splash resistant", "Light rain protection"],
+    "use_case": "Good for everyday protection"
+  },
+  {
+    "term": "IP68",
+    "full_name": "Ingress Protection Rating 68",
+    "category": "durability",
+    "explanation": "Dust-tight and water resistant beyond 1 meter, typically up to 1.5 meters for 30 minutes.",
+    "benefits": ["Better water resistance", "Can survive brief submersion", "Dust-tight"],
+    "use_case": "Best for outdoor activities and clumsy users"
+  },
+  {
+    "term": "Fast Charging",
+    "full_name": "Fast Charging Technology",
+    "category": "battery",
+    "explanation": "Technology allowing phones to charge at higher wattages (30W-150W) for quicker charging.",
+    "benefits": ["Quick top-ups", "Less waiting time", "Convenient for busy users"],
+    "use_case": "Essential for heavy users who need quick charges"
+  },
+  {
+    "term": "Refresh Rate",
+    "full_name": "Display Refresh Rate",
+    "category": "display",
+    "explanation": "How many times per second the display updates, measured in Hz (60Hz, 90Hz, 120Hz, 144Hz).",
+    "benefits": ["Smoother scrolling", "Better gaming", "Fluid animations"],
+    "use_case": "Important for gamers and smooth UI experience"
+  },
+  {
+    "term": "NFC",
+    "full_name": "Near Field Communication",
+    "category": "connectivity",
+    "explanation": "Short-range wireless technology for contactless communication.",
+    "benefits": ["Contactless payments", "Quick pairing", "Easy data transfer"],
+    "use_case": "Essential for digital payments (Google Pay, etc.)"
+  },
+  {
+    "term": "Gorilla Glass",
+    "full_name": "Corning Gorilla Glass",
+    "category": "durability",
+    "explanation": "Toughened glass for phone displays and backs. Higher versions offer better protection.",
+    "benefits": ["Scratch resistant", "Drop protection", "Durable"],
+    "use_case": "Important for protecting your investment"
+  },
+  {
+    "term": "Telephoto",
+    "full_name": "Telephoto Camera Lens",
+    "category": "camera",
+    "explanation": "Camera lens with optical zoom capability for distant subjects.",
+    "benefits": ["True optical zoom", "No quality loss", "Better portraits"],
+    "use_case": "Great for photography enthusiasts and distant subjects"
+  },
+  {
+    "term": "Ultrawide",
+    "full_name": "Ultra-wide Camera Lens",
+    "category": "camera",
+    "explanation": "Camera lens with wider field of view (typically 120°) for capturing more in frame.",
+    "benefits": ["Capture more", "Great for landscapes", "Group photos"],
+    "use_case": "Perfect for travel and group photography"
+  },
+  {
+    "term": "Macro",
+    "full_name": "Macro Camera Lens",
+    "category": "camera",
+    "explanation": "Close-up camera lens for photographing small objects at very short distances.",
+    "benefits": ["Extreme close-ups", "Detail shots", "Creative photography"],
+    "use_case": "For creative photographers and detail shots"
+  }
+]
+

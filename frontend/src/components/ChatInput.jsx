@@ -36,6 +36,3 @@ const ChatInput = ({ onSend, disabled }) => {
 };
 
 export default ChatInput;
-
-
-

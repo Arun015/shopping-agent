@@ -95,6 +95,3 @@ class SafetyService:
 
 
 safety_service = SafetyService()
-
-
-

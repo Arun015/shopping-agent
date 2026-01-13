@@ -1,7 +1,11 @@
 import uuid
+import logging
 from typing import Dict
+from fastapi import HTTPException
 from backend.agents import ShoppingAgentSession
 from backend.services.safety_service import safety_service
+
+logger = logging.getLogger(__name__)
 
 
 class ChatService:
@@ -27,7 +31,11 @@ class ChatService:
             response = agent_session.chat(message)
             return response, session_id
         except Exception as e:
-            return f"I encountered an issue processing your request. Please try rephrasing your question.", session_id
+            logger.error(f"Error in chat service: {e}", exc_info=True)
+            raise HTTPException(
+                status_code=500,
+                detail="Unable to process your request. Please try again later."
+            )
     
     def clear_session(self, session_id: str):
         if session_id in self.sessions:
@@ -35,6 +43,3 @@ class ChatService:
 
 
 chat_service = ChatService()
-
-
-
