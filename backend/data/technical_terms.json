@@ -110,6 +110,198 @@
     "explanation": "Close-up camera lens for photographing small objects at very short distances.",
     "benefits": ["Extreme close-ups", "Detail shots", "Creative photography"],
     "use_case": "For creative photographers and detail shots"
+  },
+  {
+    "term": "RAM",
+    "full_name": "Random Access Memory",
+    "category": "performance",
+    "explanation": "Temporary memory that stores data for apps currently running. More RAM allows more apps to run simultaneously without slowing down.",
+    "benefits": ["Faster multitasking", "Smoother app switching", "Better gaming performance"],
+    "use_case": "8GB+ recommended for heavy multitaskers and gamers"
+  },
+  {
+    "term": "ROM",
+    "full_name": "Read-Only Memory (Storage)",
+    "category": "storage",
+    "explanation": "Internal storage space for apps, photos, videos, and files. Often incorrectly called ROM, it's actually flash storage.",
+    "benefits": ["Store more apps", "More photos/videos", "Offline content"],
+    "use_case": "128GB minimum recommended, 256GB+ for heavy users"
+  },
+  {
+    "term": "RAM vs ROM",
+    "full_name": "RAM vs ROM Comparison",
+    "category": "performance",
+    "explanation": "RAM is temporary memory for running apps (like workspace), ROM/Storage is permanent memory for saving files (like a filing cabinet). RAM = Speed, Storage = Capacity.",
+    "benefits": ["RAM: Faster performance", "ROM/Storage: More space for files"],
+    "use_case": "Need both: 8GB+ RAM for speed, 128GB+ storage for space"
+  },
+  {
+    "term": "OLED",
+    "full_name": "Organic Light-Emitting Diode",
+    "category": "display",
+    "explanation": "Premium display where each pixel produces its own light. Can turn off individual pixels for true blacks.",
+    "benefits": ["True blacks", "Infinite contrast", "Vibrant colors", "Better battery (dark mode)", "Thinner displays"],
+    "use_case": "Best for media, gaming, and premium experience"
+  },
+  {
+    "term": "OLED vs LCD",
+    "full_name": "OLED vs LCD Comparison",
+    "category": "display",
+    "explanation": "OLED: Each pixel lights itself (true blacks, vibrant). LCD: Backlight behind pixels (brighter, cheaper). OLED = Quality, LCD = Affordability.",
+    "benefits": ["OLED: Better contrast and colors", "LCD: Brighter outdoors, no burn-in"],
+    "use_case": "OLED for premium experience, LCD for budget and outdoor use"
+  },
+  {
+    "term": "HDD",
+    "full_name": "Hard Disk Drive",
+    "category": "storage",
+    "explanation": "Old mechanical storage with spinning disks. NOT used in smartphones. Phones use flash storage (like SSD).",
+    "benefits": ["Not applicable to phones"],
+    "use_case": "Not used in smartphones - only in computers"
+  },
+  {
+    "term": "SSD",
+    "full_name": "Solid State Drive",
+    "category": "storage",
+    "explanation": "Fast flash storage with no moving parts. All modern smartphones use flash storage similar to SSDs (called UFS or eMMC).",
+    "benefits": ["Very fast", "No moving parts", "Durable", "Power efficient"],
+    "use_case": "All modern phones use flash storage (UFS 3.1/4.0)"
+  },
+  {
+    "term": "HDD vs SSD",
+    "full_name": "HDD vs SSD Comparison",
+    "category": "storage",
+    "explanation": "HDD = Old, slow, mechanical (not in phones). SSD/Flash = Fast, no moving parts (used in all phones). Phones use UFS/eMMC flash storage.",
+    "benefits": ["SSD/Flash: Much faster, more durable, power efficient"],
+    "use_case": "All smartphones use flash storage - look for UFS 3.1 or UFS 4.0"
+  },
+  {
+    "term": "UFS",
+    "full_name": "Universal Flash Storage",
+    "category": "storage",
+    "explanation": "Fast flash storage standard used in smartphones. UFS 3.1 and UFS 4.0 are latest versions, much faster than older eMMC.",
+    "benefits": ["Faster app loading", "Quicker file transfers", "Better overall performance"],
+    "use_case": "UFS 3.1+ recommended for flagship experience"
+  },
+  {
+    "term": "Processor",
+    "full_name": "Mobile Processor/SoC",
+    "category": "performance",
+    "explanation": "The brain of the phone (CPU, GPU, AI, modem combined). Snapdragon, MediaTek, Apple A-series, Google Tensor are main brands.",
+    "benefits": ["Faster performance", "Better gaming", "Efficient battery use", "AI features"],
+    "use_case": "Snapdragon 8 Gen series or equivalent for flagship performance"
+  },
+  {
+    "term": "Snapdragon",
+    "full_name": "Qualcomm Snapdragon Processor",
+    "category": "performance",
+    "explanation": "Popular mobile processor series by Qualcomm. 8 Gen series = flagship, 7 series = mid-range, 6/4 series = budget.",
+    "benefits": ["Reliable performance", "Good gaming", "Efficient", "Wide compatibility"],
+    "use_case": "8 Gen 2/3 for flagship, 7 Gen series for mid-range"
+  },
+  {
+    "term": "MediaTek",
+    "full_name": "MediaTek Dimensity Processor",
+    "category": "performance",
+    "explanation": "Mobile processor brand, popular in mid-range phones. Dimensity 9000+ series competes with Snapdragon flagship.",
+    "benefits": ["Good value", "Decent performance", "Affordable"],
+    "use_case": "Dimensity 9000+ for flagship, 8000/7000 series for mid-range"
+  },
+  {
+    "term": "mAh",
+    "full_name": "Milliampere-hour",
+    "category": "battery",
+    "explanation": "Battery capacity measurement. Higher mAh = more battery capacity, but efficiency also matters (processor, display).",
+    "benefits": ["Longer battery life (generally)", "More usage time"],
+    "use_case": "5000mAh+ recommended for all-day heavy use"
+  },
+  {
+    "term": "Wireless Charging",
+    "full_name": "Qi Wireless Charging",
+    "category": "battery",
+    "explanation": "Charge phone by placing it on a charging pad, no cable needed. Uses Qi standard (typically 10-15W).",
+    "benefits": ["Convenient", "No cable wear", "Easy to use"],
+    "use_case": "Convenient for desk/nightstand charging"
+  },
+  {
+    "term": "USB-C",
+    "full_name": "USB Type-C",
+    "category": "connectivity",
+    "explanation": "Modern reversible charging and data port. Faster than old micro-USB, becoming universal standard.",
+    "benefits": ["Reversible", "Faster charging", "Faster data transfer", "Universal"],
+    "use_case": "Standard on all modern Android phones and iPhone 15+"
+  },
+  {
+    "term": "Face ID",
+    "full_name": "Face ID Biometric Authentication",
+    "category": "security",
+    "explanation": "Apple's 3D face scanning technology for secure unlock and authentication using TrueDepth camera.",
+    "benefits": ["Very secure", "Works in dark", "Fast unlock", "Contactless"],
+    "use_case": "Secure authentication on iPhones (X and newer)"
+  },
+  {
+    "term": "Fingerprint",
+    "full_name": "Fingerprint Sensor",
+    "category": "security",
+    "explanation": "Biometric sensor that scans fingerprint for unlock. Can be optical (under display), ultrasonic, or capacitive (side/back).",
+    "benefits": ["Fast unlock", "Secure", "Works with masks", "Convenient"],
+    "use_case": "Quick and secure phone unlock"
+  },
+  {
+    "term": "Gimbal",
+    "full_name": "Gimbal Stabilization",
+    "category": "camera",
+    "explanation": "Advanced hardware stabilization using motorized gimbal mechanism. Better than regular OIS for video.",
+    "benefits": ["Ultra-smooth video", "Professional-looking footage", "Better than OIS"],
+    "use_case": "For serious video creators and vloggers"
+  },
+  {
+    "term": "Optical Zoom",
+    "full_name": "Optical Zoom",
+    "category": "camera",
+    "explanation": "True zoom using telephoto lens with no quality loss. 2x, 3x, 5x, 10x are common. Better than digital zoom.",
+    "benefits": ["No quality loss", "Better distant shots", "True magnification"],
+    "use_case": "Essential for photography enthusiasts"
+  },
+  {
+    "term": "Digital Zoom",
+    "full_name": "Digital Zoom",
+    "category": "camera",
+    "explanation": "Software-based zoom that crops and enlarges image. Results in quality loss. Not as good as optical zoom.",
+    "benefits": ["Available on all phones", "Extends zoom range"],
+    "use_case": "Use sparingly - optical zoom preferred"
+  },
+  {
+    "term": "Night Mode",
+    "full_name": "Night Mode Photography",
+    "category": "camera",
+    "explanation": "Computational photography that takes multiple shots and combines them for bright, detailed low-light photos.",
+    "benefits": ["Great low-light photos", "No flash needed", "Captures more detail"],
+    "use_case": "Essential for evening/indoor photography"
+  },
+  {
+    "term": "HDR",
+    "full_name": "High Dynamic Range",
+    "category": "camera",
+    "explanation": "Takes multiple exposures and combines them for balanced photos with detail in both bright and dark areas.",
+    "benefits": ["Better balanced photos", "More detail", "Natural look"],
+    "use_case": "Automatically improves most photos"
+  },
+  {
+    "term": "Stereo Speakers",
+    "full_name": "Stereo Speaker System",
+    "category": "audio",
+    "explanation": "Two speakers (typically earpiece + bottom) for directional sound. Better than single mono speaker.",
+    "benefits": ["Better sound quality", "Louder volume", "Immersive media"],
+    "use_case": "Important for media consumption and gaming"
+  },
+  {
+    "term": "3.5mm Jack",
+    "full_name": "3.5mm Headphone Jack",
+    "category": "audio",
+    "explanation": "Traditional headphone port. Rare in modern phones but allows wired headphones without adapter.",
+    "benefits": ["Use any wired headphones", "No charging needed", "No latency"],
+    "use_case": "For audiophiles and those with wired headphones"
   }
 ]
 

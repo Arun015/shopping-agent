@@ -7,9 +7,10 @@ class SafetyService:
     ADVERSARIAL_PATTERNS = [
         r"ignore\s+(previous|above|all|your)\s+(instructions?|rules?|prompts?)",
         r"reveal\s+(your\s+)?(system\s+)?(prompt|instructions?|rules?)",
-        r"what\s+(is|are)\s+your\s+(instructions?|rules?|prompts?)",
+        r"what\s+(is|are)\s+your\s+(instructions?|rules?|prompts?|system\s+prompt)",
         r"show\s+(me\s+)?(your\s+)?(system\s+)?(prompt|instructions?)",
-        r"(api|secret|private)\s*key",
+        r"tell\s+me\s+your\s+(prompt|instructions?|rules?)",
+        r"(api|secret|private|google)\s*key",
         r"bypass\s+(security|safety|rules?)",
         r"pretend\s+(you|to)\s+(are|be)",
         r"act\s+as\s+(if|a|an)",
@@ -17,12 +18,21 @@ class SafetyService:
         r"jailbreak",
         r"dan\s+mode",
         r"developer\s+mode",
+        r"forget\s+(your|all|previous)\s+(instructions?|rules?)",
+        r"disregard\s+(your|all|previous)",
+        r"override\s+(your|security|safety)",
+        r"hidden\s+(prompt|instructions?|logic)",
+        r"internal\s+(logic|system|prompt)",
+        r"you\s+are\s+now",
+        r"new\s+instructions?",
     ]
     
     TOXIC_PATTERNS = [
-        r"\b(trash|garbage|shit|crap|sucks?)\s+(brand|phone|company)",
-        r"(brand|phone|company)\s+(is|are)\s+(trash|garbage|shit|crap|sucks?)",
-        r"(hate|worst|terrible|awful)\s+(brand|phone)",
+        r"\b(trash|garbage|shit|crap|sucks?)\s+(brand|phone|company|apple|samsung|xiaomi|oneplus|google|nothing)",
+        r"(brand|phone|company|apple|samsung|xiaomi|oneplus|google|nothing)\s+(is|are)\s+(trash|garbage|shit|crap|sucks?)",
+        r"(hate|worst|terrible|awful)\s+(brand|phone|apple|samsung|xiaomi|oneplus|google)",
+        r"(apple|samsung|xiaomi|oneplus|google|nothing)\s+(is|are)\s+(garbage|trash|shit|crap)",
+        r"trash\s+(apple|samsung|xiaomi|oneplus|google|nothing|brand\s+[a-z]+)",
     ]
     
     OFF_TOPIC_KEYWORDS = [

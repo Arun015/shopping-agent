@@ -980,6 +980,256 @@
       "features": ["5G", "OIS", "Curved display"],
       "pros": ["OIS at this price", "Good performance", "Slim design"],
       "cons": ["Small battery", "FunTouch OS"]
+    },
+    {
+      "id": 41,
+      "brand": "Apple",
+      "model": "iPhone 15",
+      "price": 79900,
+      "specs": {
+        "camera": {
+          "main_mp": 48,
+          "ultrawide_mp": 12,
+          "features": ["OIS", "Night mode", "4K 60fps", "Cinematic mode"]
+        },
+        "battery_mah": 3349,
+        "fast_charging_w": 20,
+        "processor": "A16 Bionic",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.1,
+        "display_type": "OLED",
+        "refresh_rate_hz": 60,
+        "weight_g": 171
+      },
+      "features": ["5G", "Face ID", "Dynamic Island", "USB-C"],
+      "pros": ["Excellent cameras", "Premium build", "iOS ecosystem", "Long software support"],
+      "cons": ["60Hz display", "Expensive", "No charger included"]
+    },
+    {
+      "id": 42,
+      "brand": "Apple",
+      "model": "iPhone 14",
+      "price": 69900,
+      "specs": {
+        "camera": {
+          "main_mp": 12,
+          "ultrawide_mp": 12,
+          "features": ["OIS", "Night mode", "4K 60fps", "Photonic Engine"]
+        },
+        "battery_mah": 3279,
+        "fast_charging_w": 20,
+        "processor": "A15 Bionic",
+        "ram_gb": 6,
+        "storage_gb": 128,
+        "display_inches": 6.1,
+        "display_type": "OLED",
+        "refresh_rate_hz": 60,
+        "weight_g": 172
+      },
+      "features": ["5G", "Face ID", "Ceramic Shield", "Lightning port"],
+      "pros": ["Reliable performance", "Good cameras", "iOS ecosystem"],
+      "cons": ["60Hz display", "Lightning port", "No USB-C"]
+    },
+    {
+      "id": 43,
+      "brand": "Apple",
+      "model": "iPhone 13",
+      "price": 59900,
+      "specs": {
+        "camera": {
+          "main_mp": 12,
+          "ultrawide_mp": 12,
+          "features": ["OIS", "Night mode", "4K 60fps", "Cinematic mode"]
+        },
+        "battery_mah": 3240,
+        "fast_charging_w": 20,
+        "processor": "A15 Bionic",
+        "ram_gb": 4,
+        "storage_gb": 128,
+        "display_inches": 6.1,
+        "display_type": "OLED",
+        "refresh_rate_hz": 60,
+        "weight_g": 174
+      },
+      "features": ["5G", "Face ID", "Ceramic Shield"],
+      "pros": ["Good value iPhone", "Reliable", "Long battery life"],
+      "cons": ["60Hz display", "4GB RAM", "Older design"]
+    },
+    {
+      "id": 44,
+      "brand": "Apple",
+      "model": "iPhone SE (2022)",
+      "price": 43900,
+      "specs": {
+        "camera": {
+          "main_mp": 12,
+          "features": ["Portrait mode", "4K 60fps", "Smart HDR 4"]
+        },
+        "battery_mah": 2018,
+        "fast_charging_w": 20,
+        "processor": "A15 Bionic",
+        "ram_gb": 4,
+        "storage_gb": 64,
+        "display_inches": 4.7,
+        "display_type": "LCD",
+        "refresh_rate_hz": 60,
+        "weight_g": 144
+      },
+      "features": ["5G", "Touch ID", "Compact design"],
+      "pros": ["Most compact iPhone", "Powerful processor", "Touch ID", "Affordable iPhone"],
+      "cons": ["Small battery", "Old design", "Single camera", "LCD display"]
+    },
+    {
+      "id": 45,
+      "brand": "Asus",
+      "model": "Zenfone 10",
+      "price": 52999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 13,
+          "features": ["OIS", "6-axis gimbal stabilization", "8K video"]
+        },
+        "battery_mah": 4300,
+        "fast_charging_w": 30,
+        "processor": "Snapdragon 8 Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 5.9,
+        "display_type": "AMOLED",
+        "refresh_rate_hz": 144,
+        "weight_g": 172
+      },
+      "features": ["5G", "IP68", "3.5mm jack", "Wireless charging"],
+      "pros": ["Compact flagship", "Excellent performance", "Great cameras", "One-hand friendly"],
+      "cons": ["Limited availability", "Small battery", "No telephoto"]
+    },
+    {
+      "id": 46,
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 5",
+      "price": 99999,
+      "specs": {
+        "camera": {
+          "main_mp": 12,
+          "ultrawide_mp": 12,
+          "features": ["OIS", "Flex mode", "Night mode"]
+        },
+        "battery_mah": 3700,
+        "fast_charging_w": 25,
+        "processor": "Snapdragon 8 Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.7,
+        "display_type": "AMOLED",
+        "refresh_rate_hz": 120,
+        "weight_g": 187
+      },
+      "features": ["5G", "Foldable", "IPX8", "Wireless charging", "Cover display"],
+      "pros": ["Ultra compact when folded", "Unique design", "Good performance", "Large cover screen"],
+      "cons": ["Expensive", "Average battery", "Crease visible", "Fragile"]
+    },
+    {
+      "id": 47,
+      "brand": "Xiaomi",
+      "model": "Redmi Note 13 Pro",
+      "price": 24999,
+      "specs": {
+        "camera": {
+          "main_mp": 200,
+          "ultrawide_mp": 8,
+          "macro_mp": 2,
+          "features": ["OIS", "4K video", "Night mode"]
+        },
+        "battery_mah": 5100,
+        "fast_charging_w": 67,
+        "processor": "Snapdragon 7s Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.67,
+        "display_type": "AMOLED",
+        "refresh_rate_hz": 120,
+        "weight_g": 199
+      },
+      "features": ["5G", "IP54", "Stereo speakers"],
+      "pros": ["200MP camera", "Fast charging", "Good display", "Great value"],
+      "cons": ["MIUI bloatware", "Average processor", "Plastic frame"]
+    },
+    {
+      "id": 48,
+      "brand": "Motorola",
+      "model": "Edge 40",
+      "price": 29999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 13,
+          "features": ["OIS", "4K 60fps", "Night vision"]
+        },
+        "battery_mah": 4400,
+        "fast_charging_w": 68,
+        "processor": "MediaTek Dimensity 8020",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.55,
+        "display_type": "OLED",
+        "refresh_rate_hz": 144,
+        "weight_g": 171
+      },
+      "features": ["5G", "IP68", "Wireless charging", "Clean Android"],
+      "pros": ["Slim and light", "IP68 rating", "Clean software", "Fast charging"],
+      "cons": ["Average battery life", "MediaTek processor", "No telephoto"]
+    },
+    {
+      "id": 49,
+      "brand": "Sony",
+      "model": "Xperia 5 V",
+      "price": 89999,
+      "specs": {
+        "camera": {
+          "main_mp": 52,
+          "ultrawide_mp": 12,
+          "features": ["OIS", "4K 120fps", "Eye AF", "Zeiss optics"]
+        },
+        "battery_mah": 5000,
+        "fast_charging_w": 30,
+        "processor": "Snapdragon 8 Gen 2",
+        "ram_gb": 8,
+        "storage_gb": 128,
+        "display_inches": 6.1,
+        "display_type": "OLED",
+        "refresh_rate_hz": 120,
+        "weight_g": 182
+      },
+      "features": ["5G", "IP68", "3.5mm jack", "microSD slot", "Dedicated camera button"],
+      "pros": ["Compact flagship", "Excellent cameras", "3.5mm jack", "No notch/punch hole"],
+      "cons": ["Very expensive", "Limited availability", "Slow charging"]
+    },
+    {
+      "id": 50,
+      "brand": "Realme",
+      "model": "GT 6",
+      "price": 35999,
+      "specs": {
+        "camera": {
+          "main_mp": 50,
+          "ultrawide_mp": 8,
+          "features": ["OIS", "4K 60fps", "Night mode"]
+        },
+        "battery_mah": 5500,
+        "fast_charging_w": 120,
+        "processor": "Snapdragon 8s Gen 3",
+        "ram_gb": 8,
+        "storage_gb": 256,
+        "display_inches": 6.78,
+        "display_type": "AMOLED",
+        "refresh_rate_hz": 120,
+        "weight_g": 199
+      },
+      "features": ["5G", "IP65", "Stereo speakers"],
+      "pros": ["120W fast charging", "Good performance", "Large battery", "Affordable flagship"],
+      "cons": ["Realme UI bloat", "Average cameras", "Heavy"]
     }
   ]
 }
